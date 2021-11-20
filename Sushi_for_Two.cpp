@@ -35,7 +35,7 @@ int main()
 		else 
 			two++;
 	}
-	ans = max(ans, min(one, two));
+	ans = max(ans, min(one, two)); //this has been added so that it can update ans is new ans is found int he last run throught array.
 	cout<<ans*2;
 	return 0;
 }
